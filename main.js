@@ -6,7 +6,7 @@ function updateElement() {
     if(count > 10)
     {
         count = 0;
-        messageElement.innerHTML = "You have exceeded the limit!! Fuck Off You Feak!!";
+        messageElement.innerHTML = "You have exceeded the limit!! Fuck Off You Freak!!";
         return;
     }
     messageElement.innerHTML = "You have clicked the button " + count + " times.";
