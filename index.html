@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test Web Site</title>
+    <title>CatSite</title>
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Test Web Site</h1>
-    <p id="message">Test Web Site</p>
-    <button onclick="updateElement()">Click!!</button>
+    <div id="header">
+        <h1 id="title">Cat Website</h1>
+        <p id="message">Cat Images are here!!!</p>
+    </div>
     <div id="imageContainer">
         <img id="randomImage" src="https://api.thecatapi.com/v1/images/search" alt="Random Image" width="700" height="600">
     </div>
-    <button onclick="showRandomImage()">Show Random Image</button>
+    <button onclick="showRandomImage()" id = "lower">Show Random Image</button>
 </body>
 </html>

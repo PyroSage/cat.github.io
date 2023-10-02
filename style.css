@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: #403636;
 }
 
 p {
@@ -24,9 +24,59 @@ p {
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 20px 20px;
+    background-color: #913636;
     color: #fff;
     border: none;
     cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#lower{
+
+    background-color: #913636;
+    color: #403636;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+#upper:hover {
+    background-color: #c9a1a1;
+}
+
+#lower:hover {
+    background-color: #c9a1a1;
+}
+
+#randomImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#title{
+    color: #403636;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
 }
